@@ -11,13 +11,13 @@ export default function Index() {
       <OpenGraphMeta url={"/"} />
       <TwitterCardMeta url={"/"} />
       <div className="container">
-        <div>
+        <div className="content">
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+					Để có thể tận hưởng niềm vui một cách trọn vẹn, bạn phải có ai đó để cùng sẻ chia niềm vui đó<span className="fancy">.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
-          <SocialList />
+          <span className="handle">-Mark Twain-</span>
+          <h4>Chào mừng bạn đến với Loda9, cộng đồng lập trình viên hàng đầu thành phố Hồ Chí Minh.</h4>
+          {/* <SocialList /> */}
         </div>
       </div>
       <style jsx>{`
@@ -28,13 +28,16 @@ export default function Index() {
           flex: 1 1 auto;
           padding: 0 1.5rem;
         }
+				.content {
+					max-width: 40%;
+				}
         h1 {
           font-size: 2.5rem;
           margin: 0;
           font-weight: 500;
         }
-        h2 {
-          font-size: 1.75rem;
+        h4 {
+          font-size: 1.4 rem;
           font-weight: 400;
           line-height: 1.25;
         }
